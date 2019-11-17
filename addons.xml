@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+	<addon id="skin.radio" name="Radio" version="0.0.1" provider-name="redwain">
+		<requires>
+			<import addon="xbmc.gui" version="5.14.0"/>
+		</requires>
+		<extension point="xbmc.gui.skin" debugging="false">
+	    <res width="1280" height="960" aspect="4:3" folder="xml"/>
+			<res width="1706" height="960" aspect="16:9" default="true" folder="xml"/>
+			<res width="800" height="480" aspect="5:3" folder="xml"/>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary>Skin for car radio with touchscreen panel</summary>
+			<description>Skin designed to be used on car radio with touchscreen panel</description>
+			<platform>all</platform>
+			<language></language>
+			<license>Creative Commons Attribution-Share Alike 3.0 United States</license>
+			<forum></forum>
+			<website></website>
+			<email></email>
+			<source>https://github.com/redwain/skin.radio</source>
+			<assets>
+				<icon>resources/icon.png</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/screenshot-01.jpg</screenshot>
+			</assets>
+		</extension>
+	</addon>
+</addons>
