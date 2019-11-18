@@ -21,8 +21,8 @@
 			<source>https://github.com/redwain/skin.radio</source>
 			<assets>
 				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/screenshot-01.jpg</screenshot>
+				<screenshot>resources/s_home.png</screenshot>
+				<screenshot>resources/s_settings.png</screenshot>
 			</assets>
 		</extension>
 	</addon>
